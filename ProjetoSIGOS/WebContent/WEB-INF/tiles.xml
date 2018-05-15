@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="layout.tiles" template="/WEB-INF/views/layout/baseLayout.jsp">
+		<put-attribute name="title" value=""></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp"></put-attribute>	
+		<put-attribute name="menu" value="/WEB-INF/views/layout/menu.jsp"></put-attribute>
+		<put-attribute name="body" value=""></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ***************************************** Cliente *************************************** -->
+	
+	<!-- Incluir -->
+	<definition name="cliente.adicionar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Novo cliente"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/clientes/adicionar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Alterar -->
+	<definition name="cliente.alterar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Edição de cliente"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/clientes/alterar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Listar -->
+	<definition name="cliente.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Exibição de cliente"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/clientes/listar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ************************************** Equipamento ***************************************** -->
+	
+	<!-- Incluir -->
+	<definition name="equipamento.adicionar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Novo equipamento"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/equipamento/adicionar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Listar -->
+	<definition name="equipamento.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Equipamentos"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/equipamento/listar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- alterar -->
+	<definition name="equipamento.alterar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Alterar Equip."></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/equipamento/alterar.jsp"></put-attribute>
+	</definition>
+	<!-- ************************************** Servico ***************************************** -->
+	
+	<!-- Incluir -->
+	<definition name="servico.adicionar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Novo serviço"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/servico/adicionar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Listar -->
+	<definition name="servico.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Serviços"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/servico/listar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- alterar -->
+	<definition name="servico.alterar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Alterar Serv."></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/servico/alterar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ************************************** Servico ***************************************** -->
+	
+	<!-- Listar -->
+	<definition name="tecnico.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Tecnicos"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/tecnico/listar.jsp"></put-attribute>
+	</definition>	
+	
+	<!-- *********************************** Ordem de serviço ************************************* -->
+	
+	<!-- Incluir -->
+	<definition name="ordemServico.adicionar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Nova O.S"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/ordem_de_servico/adicionar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Listar -->
+	<definition name="ordemServico.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Ordens de Serviço"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/ordem_de_servico/listar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Alterar -->
+	<definition name="ordemServico.alterar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Visualizando O.S"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/ordem_de_servico/alterar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ************************************** Orçamento ***************************************** -->
+	
+	<!-- Incluir -->
+	<definition name="orcamento.adicionar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Novo orçamento"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/orcamento/adicionar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Listar -->
+	<definition name="orcamento.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Orçamentos"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/orcamento/listar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- alterar -->
+	<definition name="orcamento.alterar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Visualizando Orç."></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/orcamento/alterar.jsp"></put-attribute>
+	</definition>
+	
+	
+	<!-- ***************************************** Usuário *************************************** -->
+	
+	<!-- Incluir -->
+	<definition name="usuario.adicionar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Adição de usuários"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/usuarios/adicionar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Listar -->
+	<definition name="usuario.listar.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Exibição de usuários"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/usuarios/listar.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ***************************************** Home ***************************************** -->
+	
+	<!-- Login -->
+	<definition name="home.login.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Login"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/home/login.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Pagina de boas vindas -->
+	<definition name="home.painel.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Bem-vindo(a)!"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/home/painel.jsp"></put-attribute>
+	</definition>
+	
+	<!-- ***************************************** Pagina de Erro ******************************* -->
+	
+	<!-- Erro -->
+	<definition name="erros.erro.tiles" extends="layout.tiles">
+		<put-attribute name="title" value="SIGOS: Pagina de erro"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/erros/erro.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
