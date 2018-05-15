@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <div class="w3-card w3-round w3-display-middle w3-half w3-col m3">    
-   <div class="w3-container w3-theme-d4 w3-padding-16">
+   <div class="w3-container w3-round w3-theme-d4 w3-padding-16">
        <h3>SIGOS - Login</h3>
 	</div>           
       <form class="w3-white" action="/ProjetoSIGOS/login" method="post">  
@@ -12,7 +12,7 @@
           <button class="w3-button w3-green w3-block w3-round" type="submit">Entrar</button><br>                             
         </div>                 
      </form><br>
-     <div class="w3-container w3-center	 w3-light-grey">
+     <div class="w3-container w3-round w3-center	 w3-light-grey">
         <p class="w3-opacity w3-small">SIGOS - Sistema Gerenciador de O.S.</p>          
     </div>   
  

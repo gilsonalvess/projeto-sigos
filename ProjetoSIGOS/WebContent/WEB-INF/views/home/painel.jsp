@@ -9,7 +9,7 @@
 
   <div class="w3-row-padding w3-margin-bottom">
     <div class="w3-quarter">
-      <div class="w3-container w3-red w3-padding-16">
+      <div class="w3-container w3-round w3-red w3-padding-16">
         <div class="w3-left"><i class="fa fa-exclamation-triangle w3-xxlarge"></i></div>
         <div class="w3-right">
           <h3>4</h3>  
@@ -20,7 +20,7 @@
     </div>
  <sec:authorize access="hasRole('ROLE_ADMIN')"> 
     <div class="w3-quarter">
-      <div class="w3-container w3-blue w3-padding-16">
+      <div class="w3-container w3-round w3-blue w3-padding-16">
         <div class="w3-left"><i class="fa fa-money w3-xxlarge"></i></div>
         <div class="w3-right">
           <h3>15</h3>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="w3-quarter">
-      <div class="w3-container w3-teal w3-padding-16">
+      <div class="w3-container w3-round w3-teal w3-padding-16">
         <div class="w3-left"><i class="fa fa-tasks w3-xxlarge"></i></div>
         <div class="w3-right">
           <h3>23</h3>
@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="w3-quarter">
-      <div class="w3-container w3-green w3-text-white w3-padding-16">
+      <div class="w3-container w3-round w3-green w3-text-white w3-padding-16">
         <div class="w3-left"><i class="fa fa-check w3-xxlarge"></i></div>
         <div class="w3-right">
           <h3>50</h3>
