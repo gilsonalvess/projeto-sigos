@@ -14,6 +14,5 @@
      </form><br>
      <div class="w3-container w3-round w3-center	 w3-light-grey">
         <p class="w3-opacity w3-small">SIGOS - Sistema Gerenciador de O.S.</p>          
-    </div>   
- 
-</div>	
+    </div>
+</div>
