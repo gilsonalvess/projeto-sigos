@@ -17,6 +17,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import org.hibernate.action.internal.OrphanRemovalAction;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -68,7 +69,7 @@ public class Cliente {
 	private EnderecoContatoCliente enderecoContato;	
 	
 	@JsonBackReference
-	@OneToMany(mappedBy = "cliente", fetch = FetchType.EAGER, cascade = CascadeType.ALL) // ver cascade orphanRemoval
+	@OneToMany(mappedBy = "cliente", fetch = FetchType.EAGER, cascade = CascadeType.MERGE) // ver cascade orphanRemoval
 	private Set<Equipamento> equipamento;
 
 	

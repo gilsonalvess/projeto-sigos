@@ -7,7 +7,7 @@
 <div class="w3-padding">
 	<div class="w3-container w3-painel w3-white">   
 		<div class="w3-container"><br>
- 		<h3>Clientes</h3>
+ 		<h3>Novo Cliente</h3>
   		<p class="w3-panel w3-border-bottom"></p> 	
 		<form:form class="form-horizontal" action="${actionAdicionar}" method="post" modelAttribute="cliente">		
 			<div class="row"></div>	
@@ -218,8 +218,8 @@
 						<div class="col-md-8">
 							<button id="Cadastrar" name="Cadastrar" class="btn btn-success"
 								type="Submit">Cadastrar</button>
-							<button id="Cancelar" name="Cancelar" class="btn btn-danger"
-								type="Reset">Cancelar</button>
+							<a href="/ProjetoSIGOS/cliente/listar" id="Cancelar" name="Cancelar" class="btn btn-danger"
+								>Cancelar</a>
 						</div>
 					</div>
 				</div>

@@ -239,8 +239,8 @@
 						<div class="col-md-8">
 							<button id="Cadastrar" name="Cadastrar" class="btn btn-success"
 								type="Submit">Alterar</button>
-							<button id="Cancelar" name="Cancelar" class="btn btn-danger"
-								>Cancelar</button>
+							<a href="/ProjetoSIGOS/cliente/listar" id="Cancelar" name="Cancelar" class="btn btn-danger"
+								>Cancelar</a>
 						</div>
 					</div>
 

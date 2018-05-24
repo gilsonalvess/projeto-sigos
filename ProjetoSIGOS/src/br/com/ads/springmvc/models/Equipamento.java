@@ -30,7 +30,7 @@ public class Equipamento {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column
+	@Column(name = "id")
 	private Long id;
 	
 	//Validar numero de série para ser único.
@@ -52,7 +52,7 @@ public class Equipamento {
 	
 	@JsonManagedReference
 	@JoinColumn(name = "cliente_id")
-	@ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@ManyToOne(fetch = FetchType.EAGER)
 	@NotNull(message = "*")
 	private Cliente cliente;
 	

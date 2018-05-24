@@ -3,6 +3,6 @@
 <sec:authorize access="isAuthenticated()">
 
 <footer class="w3-container w3-padding-16 w3-light-grey">
-	<p class=text-center>© 2017 - Gilson Alves | gilsonalves.toc86@gmail.com</p>
+	<p class=text-center>© 2018 - Gilson Alves | gilsonalves.toc86@gmail.com</p>
 </footer>
 </sec:authorize>

@@ -68,17 +68,23 @@ public class ClienteController {
 	public String alterar(@ModelAttribute("cliente") @Valid Cliente cliente, BindingResult result, Model model){
 		if(result.hasErrors()){
 			model.addAttribute("tpcontratos", repositorioTipoContrato.findAll());
-			return "musica.alterar.tiles";
+			return "cliente.alterar.tiles";
 		}
 		repositorioCliente.save(cliente);
 		return "redirect:/cliente/listar";
 	}
 	
 	@RequestMapping(value = "/excluir/{id}", method = RequestMethod.GET)
-	public String excluir(@PathVariable("id") Long id){
+	public String excluir(@PathVariable("id") Long id, Model model){
 		Cliente cliente = repositorioCliente.findOne(id);
 		cliente.setTipoContrato(null);
-		repositorioCliente.delete(cliente);
+		try {
+			repositorioCliente.delete(cliente);
+		} catch (Exception e) {
+			System.out.println(e);
+			model.addAttribute("erro", e);
+			return "erros.erro.tiles";			
+		}		
 		return "redirect:/cliente/listar";
 	}
 	

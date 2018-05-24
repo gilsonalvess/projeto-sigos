@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import br.com.ads.springmvc.models.Cliente;
 import br.com.ads.springmvc.models.Equipamento;
 import br.com.ads.springmvc.repositorios.RepositorioCliente;
 import br.com.ads.springmvc.repositorios.RepositorioEquipamento;
@@ -57,8 +58,8 @@ public class EquipamentoController {
 			model.addAttribute("equipamento", new Equipamento());
 			return "equipamento.adicionar.tiles";			
 		}	
-		equipamento.setDataCadastro(new Date());
-		//equipamento.setManutencao(false);
+		equipamento.setDataCadastro(new Date());		
+		equipamento.setManutencao(false);		
 		repositorioEquipamento.save(equipamento);
 		return "redirect:/equipamento/listar";
 	}

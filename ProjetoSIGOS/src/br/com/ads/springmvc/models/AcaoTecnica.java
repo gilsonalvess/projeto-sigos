@@ -31,6 +31,7 @@ public class AcaoTecnica {
 
 	@Column
 	@NotNull(message = "Descrição é obrigatória")
+	
 	private String descricao;
 
 	@JsonBackReference

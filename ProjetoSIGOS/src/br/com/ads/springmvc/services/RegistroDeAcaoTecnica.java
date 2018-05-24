@@ -11,7 +11,6 @@ import br.com.ads.springmvc.models.OrdemDeServico;
 import br.com.ads.springmvc.models.Tecnico;
 import br.com.ads.springmvc.repositorios.RepositorioAcaoTecnica;
 
-
 @Service
 @Component
 public class RegistroDeAcaoTecnica {
