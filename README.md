@@ -1,4 +1,4 @@
-# Projeto SIGOS - Sistema Gerenciador de Ordem de Servico
+# Projeto SIGOS - Sistema Gerenciador de Ordem de Serviço
 
 ## O projeto
 
