@@ -40,8 +40,7 @@ public class ServicoOrcamento {
 	
 	@Column(name = "sub_total")
 	private Double subTotal = 0.0;
-    
-	
+    	
 	public int getQuantidade() {
 		return quantidade;
 	}

@@ -80,6 +80,7 @@
 	
 	<bean id="userDetailsService" class="br.com.ads.springmvc.security.SigosUserDetailsService"></bean>
 	<sec:http pattern="/resources/**" security="none"></sec:http>
+	<sec:http pattern="/cliente/**" security="none"></sec:http>
 	<sec:http pattern="/home/login" security="none"></sec:http>
 	<sec:http use-expressions="true" auto-config="true">
 		<sec:intercept-url pattern="/**/adicionar" access="hasRole('ROLE_ADMIN')"/>
