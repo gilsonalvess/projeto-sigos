@@ -2,7 +2,7 @@
 
 ## O projeto
 
-Esse projeto teve inicio como um trabalho de conclusão de curso, no qual, a proposta seria desenvolver uma aplicação Web utilizando o paradigma e os fundamentos da Orientação a Objetos. Sendo assim, foi desenvolvido e apresentado uma aplicação de gerenciamento de ordem de serviços, para uma demanda bem específica (Empresa de assistência técnica em relógios de ponto eletrônico). 
+Esse projeto teve início como um trabalho de conclusão de curso, no qual, a proposta seria desenvolver uma aplicação Web utilizando o paradigma e os fundamentos da Orientação a Objetos. Sendo assim, foi desenvolvido e apresentado uma aplicação de gerenciamento de ordem de serviços, para uma demanda bem específica (Empresa de assistência técnica em relógios de ponto eletrônico). 
 
 ## Principais requisitos
 
