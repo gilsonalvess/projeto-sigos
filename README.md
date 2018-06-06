@@ -7,7 +7,7 @@ Esse projeto teve inicio como um trabalho de conclusão de curso, no qual, a pro
 ## Principais requisitos
 
 * Gerenciar os cadastros de: clientes técnicos, equipamentos, usuários e tipos de serviços. 
-* Abertura e monitoramento das ordens de serviços (OS).
+* Abertura, edição e monitoramento das ordens de serviços (OS).
 * Gerar relatórios das OS.
 * Criar e editar orçamentos.
 
