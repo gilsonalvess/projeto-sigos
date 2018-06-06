@@ -27,4 +27,4 @@ Esse projeto teve inicio como um trabalho de conclusão de curso, no qual, a pro
 Apesar de grande parte dos requisitos já estarem implantados e funcionando, o projeto ainda está em fase de desenvolvimento.
 Qualquer contribuição será bem-vinda.
 
-OBS: Em anexo ao repositório, encontra-se o modelo de classe de domínio (diagrama de classes) e um documento de implantação.
+OBS: Em anexo ao projeto, encontra-se o modelo de classe de domínio (diagrama de classes) e um documento de implantação.
